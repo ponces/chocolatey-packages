@@ -1,0 +1,44 @@
+name: build
+
+on:
+  workflow_dispatch:
+  schedule:
+    # everyday at midnight
+    - cron:  '0 0 * * *'
+
+jobs:
+  update_all:
+    runs-on: windows-latest
+    env:
+      default_branch: ${{ github.ref_name }}
+      au_Push: ${{ vars.AU_PUSH }}
+      au_NoCheckChocoVersion: ${{ vars.AU_NOCHECKCHOCOVERSION }}
+      au_Force: ${{ vars.AU_FORCE }}
+      api_key: ${{ secrets.CHOCO_API_KEY }}
+      github_api_key: ${{ secrets.GITHUB_TOKEN }}
+      github_gists_api_key: ${{ secrets.GH_GISTS_TOKEN }}
+      github_user_repo: ponces/chocolatey-packages
+      gist_id: c4dda8d7f93d500ed017dd02a5d7a141
+      gist_id_test: 57d10bec86e82b3229fa2e80477febcd
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install dependencies
+        uses: crazy-max/ghaction-chocolatey@v2
+        with:
+          args: install -y au
+
+      - name: test_all
+        shell: pwsh
+        run: |
+          .\test_all.ps1
+          git reset --hard
+
+
+      - name: update_all
+        shell: powershell
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          .\update_all.ps1

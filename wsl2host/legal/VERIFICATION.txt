@@ -1,0 +1,28 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The application has been downloaded from the official distribution and can
+be verified by:
+
+1. Go to the binary distribution page
+
+  https://github.com/shayne/go-wsl2-host/releases
+
+and download the installer wsl2host.exe
+using the links in the relevant assets section of the page.
+
+Alternatively the installers can be downloaded directly from
+
+  URL64: https://github.com/shayne/go-wsl2-host/releases/download/v0.3.4/wsl2host.exe
+
+2. The installer can be validated by comparing checksums
+  - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 wsl2host.exe
+  - Use chocolatey utility 'checksum.exe'  - checksum -t sha256 -f wsl2host.exe
+
+  File64:     wsl2host.exe
+  Type64:     sha256
+  Checksum64: 619581883D5D58436BE954417EF4B9F12F0B89BE4F06C4D023556E64FEBE2094
+
+Contents of file LICENSE.txt is obtained from https://raw.githubusercontent.com/shayne/go-wsl2-host/main/LICENSE
