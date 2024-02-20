@@ -1,0 +1,33 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The application has been downloaded from the official distribution and can
+be verified by:
+
+1. Go to the binary distribution page
+
+  https://github.com/hashicorp/vagrant/releases
+
+and download the installers vagrant_2.3.8.dev_windows_i686.msi and vagrant_2.3.8.dev_windows_amd64.msi
+using the links in the relevant assets section of the page.
+
+Alternatively the installers can be downloaded directly from
+
+  URL32: https://github.com/hashicorp/vagrant/releases/download/2.3.8.dev%2B000111-34092d97/vagrant_2.3.8.dev_windows_i686.msi
+  URL64: https://github.com/hashicorp/vagrant/releases/download/2.3.8.dev%2B000111-34092d97/vagrant_2.3.8.dev_windows_amd64.msi
+
+2. The installer can be validated by comparing checksums
+  - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 vagrant_2.3.8.dev_windows_amd64.msi
+  - Use chocolatey utility 'checksum.exe'  - checksum -t sha256 -f vagrant_2.3.8.dev_windows_amd64.msi
+
+  File32:     vagrant_2.3.8.dev_windows_i686.msi
+  Type32:     sha256
+  Checksum32: A510AD796D0E7E385362D0E2F579BCD14B4A62D5D0C50B7A046C483B8694B0F6
+
+  File64:     vagrant_2.3.8.dev_windows_amd64.msi
+  Type64:     sha256
+  Checksum64: AE9CB162846E28F17F9C721BF451F9C3458EB358F420E45D3E0590BFDD53E934
+
+Contents of file LICENSE.txt is obtained from https://github.com/hashicorp/vagrant/blob/master/LICENSE
