@@ -44,7 +44,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
   $releases = Get-AllGithubReleases -Owner hashicorp -Name vagrant | Where-Object { $_.prerelease -match 'true' }
 
-  $releases | ForEach-Object {
+  $releases | Select-Object -First 1 | ForEach-Object {
     $version = $_.tag_name.TrimStart("v") -replace '\+', '' -replace '\-.*', '' -replace '\.dev', '-dev'
 
     $url32 = $_.assets | Where-Object browser_download_url -match '_windows_i686\.msi$' | Select-Object -ExpandProperty browser_download_url
