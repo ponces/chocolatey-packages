@@ -4,7 +4,7 @@
   <metadata>
     <id>wsl2host</id>
     <title>wsl2host</title>
-    <version>0.3.4</version>
+    <version>0.3.5</version>
     <authors>Shayne Sweeney</authors>
     <owners>Alberto Ponces</owners>
     <summary>wsl2host - Automatically update your Windows hosts file with the WSL2 VM IP address.</summary>
@@ -22,7 +22,7 @@ This program installs as a service and runs under the local user account. It aut
     <licenseUrl>https://github.com/ponces/chocolatey-packages/tree/main/wsl2host/legal/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://store-images.s-microsoft.com/image/apps.61786.14131597032361940.38d2a067-3798-455f-934a-f69935156b3d.eb49d3ac-e311-4e6f-b89b-f1fe8db9d73b</iconUrl>
-    <releaseNotes>https://github.com/shayne/go-wsl2-host/releases/tag/v0.3.4</releaseNotes>
+    <releaseNotes>https://github.com/shayne/go-wsl2-host/releases/tag/v0.3.5</releaseNotes>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
