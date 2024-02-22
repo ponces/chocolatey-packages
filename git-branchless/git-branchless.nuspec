@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>git-branchless</id>
+    <title>git-branchless</title>
+    <version></version>
+    <authors>Waleed Khan</authors>
+    <owners>Alberto Ponces</owners>
+    <summary>git-branchless - Automatically update your Windows hosts file with the WSL2 VM IP address.</summary>
+<description><![CDATA[git-branchless is a suite of tools which enhances Git in several ways:
+
+It makes Git easier to use, both for novices and for power users.
+It adds more flexibility for power users.
+It provides faster operations for large repositories and monorepos, particularly at large tech companies.
+]]></description>
+    <projectUrl>https://github.com/arxanas/git-branchless</projectUrl>
+    <packageSourceUrl>https://github.com/ponces/chocolatey-packages/tree/main/git-branchless</packageSourceUrl>
+    <projectSourceUrl>https://github.com/arxanas/git-branchless</projectSourceUrl>
+    <docsUrl>https://github.com/arxanas/git-branchless/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/arxanas/git-branchless/issues</bugTrackerUrl>
+    <tags>git cli workflow</tags>
+    <copyright>Copyright 2021 arxanas</copyright>
+    <licenseUrl>https://github.com/arxanas/git-branchless/blob/master/LICENSE-MIT</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://user-images.githubusercontent.com/454057/144287756-8570ba1b-b9f1-46de-9236-ca17db246856.png</iconUrl>
+    <releaseNotes>https://github.com/arxanas/git-branchless/releases/tag/v0.8.0</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>

@@ -19,7 +19,7 @@ This program installs as a service and runs under the local user account. It aut
     <bugTrackerUrl>https://github.com/shayne/go-wsl2-host/issues</bugTrackerUrl>
     <tags>wsl wsl2 hosts ip address</tags>
     <copyright>Copyright 2019 shayne</copyright>
-    <licenseUrl>https://github.com/ponces/chocolatey-packages/tree/main/wsl2host/legal/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/ponces/chocolatey-packages/blob/main/wsl2host/legal/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://store-images.s-microsoft.com/image/apps.61786.14131597032361940.38d2a067-3798-455f-934a-f69935156b3d.eb49d3ac-e311-4e6f-b89b-f1fe8db9d73b</iconUrl>
     <releaseNotes>https://github.com/shayne/go-wsl2-host/releases/tag/v0.3.5</releaseNotes>

@@ -1,0 +1,28 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The application has been downloaded from the official distribution and can
+be verified by:
+
+1. Go to the binary distribution page
+
+  https://github.com/arxanas/git-branchless/releases
+
+and download the installer git-branchless.exe
+using the links in the relevant assets section of the page.
+
+Alternatively the installers can be downloaded directly from
+
+  URL64: https://github.com/arxanas/git-branchless/releases/download/v0.8.0/git-branchless-v0.8.0-x86_64-pc-windows-msvc.zip
+
+2. The installer can be validated by comparing checksums
+  - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 git-branchless.exe
+  - Use chocolatey utility 'checksum.exe'  - checksum -t sha256 -f git-branchless.exe
+
+  File64:     git-branchless.exe
+  Type64:     sha256
+  Checksum64: 6C3ABC939F22191E51AA767E9FECD1CAAC1FC4F6F53D9B4DE83E8B9FAE22BCBA
+
+Contents of file LICENSE.txt is obtained from https://raw.githubusercontent.com/arxanas/git-branchless/master/LICENSE-MIT
