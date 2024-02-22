@@ -4,7 +4,7 @@
   <metadata>
     <id>git-branchless</id>
     <title>git-branchless</title>
-    <version></version>
+    <version>0.8.0</version>
     <authors>Waleed Khan</authors>
     <owners>Alberto Ponces</owners>
     <summary>git-branchless - Automatically update your Windows hosts file with the WSL2 VM IP address.</summary>
