@@ -1,5 +1,3 @@
-$ErrorActionPreference = 'Stop'
-
 $packageArgs = @{
   packageName    = 'vagrant-dev'
   fileType        = 'msi'
