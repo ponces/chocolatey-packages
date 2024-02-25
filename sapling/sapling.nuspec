@@ -4,7 +4,7 @@
   <metadata>
     <id>sapling</id>
     <title>sapling</title>
-    <version></version>
+    <version>0.2.20240219</version>
     <authors>Facebook</authors>
     <owners>Alberto Ponces</owners>
     <summary>sapling - A cross-platform, highly scalable, Git-compatible source control system..</summary>
