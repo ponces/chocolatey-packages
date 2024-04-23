@@ -7,7 +7,7 @@
     <version>0.8.0</version>
     <authors>Waleed Khan</authors>
     <owners>Alberto Ponces</owners>
-    <summary>git-branchless - Automatically update your Windows hosts file with the WSL2 VM IP address.</summary>
+    <summary>git-branchless - High-velocity, monorepo-scale workflow for Git.</summary>
 <description><![CDATA[git-branchless is a suite of tools which enhances Git in several ways:
 
 It makes Git easier to use, both for novices and for power users.
