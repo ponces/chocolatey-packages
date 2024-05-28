@@ -4,7 +4,7 @@
   <metadata>
     <id>git-branchless</id>
     <title>git-branchless</title>
-    <version>0.8.0</version>
+    <version>0.9.0</version>
     <authors>Waleed Khan</authors>
     <owners>Alberto Ponces</owners>
     <summary>git-branchless - High-velocity, monorepo-scale workflow for Git.</summary>
@@ -24,7 +24,7 @@ It provides faster operations for large repositories and monorepos, particularly
     <licenseUrl>https://github.com/arxanas/git-branchless/blob/master/LICENSE-MIT</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://user-images.githubusercontent.com/454057/144287756-8570ba1b-b9f1-46de-9236-ca17db246856.png</iconUrl>
-    <releaseNotes>https://github.com/arxanas/git-branchless/releases/tag/v0.8.0</releaseNotes>
+    <releaseNotes>https://github.com/arxanas/git-branchless/releases/tag/v0.9.0</releaseNotes>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>

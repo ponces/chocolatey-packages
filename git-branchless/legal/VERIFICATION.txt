@@ -15,7 +15,7 @@ using the links in the relevant assets section of the page.
 
 Alternatively the installers can be downloaded directly from
 
-  URL64: https://github.com/arxanas/git-branchless/releases/download/v0.8.0/git-branchless-v0.8.0-x86_64-pc-windows-msvc.zip
+  URL64: https://github.com/arxanas/git-branchless/releases/download/v0.9.0/git-branchless-v0.9.0-x86_64-pc-windows-msvc.zip
 
 2. The installer can be validated by comparing checksums
   - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 git-branchless.exe
@@ -23,6 +23,6 @@ Alternatively the installers can be downloaded directly from
 
   File64:     git-branchless.exe
   Type64:     sha256
-  Checksum64: 6C3ABC939F22191E51AA767E9FECD1CAAC1FC4F6F53D9B4DE83E8B9FAE22BCBA
+  Checksum64: 90B4514274D59A602483253F788EAA25096EBE9B416F78227FD3D46468E2CD2B
 
 Contents of file LICENSE.txt is obtained from https://raw.githubusercontent.com/arxanas/git-branchless/master/LICENSE-MIT
