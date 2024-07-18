@@ -1,0 +1,28 @@
+VERIFICATION
+
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The application has been downloaded from the official distribution and can
+be verified by:
+
+1. Go to the binary distribution page
+
+  https://github.com/uazo/cromite/releases
+
+and download the installer package chrome-win.zip
+using the links in the relevant assets section of the page.
+
+Alternatively the installers can be downloaded directly from
+
+  URL64: https://github.com/uazo/cromite/releases/download/v127.0.6533.73-2f4346471b5f65ad4d4d3f62bfc26dda5203d1b2/chrome-win.zip
+
+2. The installer can be validated by comparing checksums
+  - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 chrome-win.zip
+  - Use chocolatey utility 'checksum.exe'  - checksum -t sha256 -f chrome-win.zip
+
+  File64:     chrome-win.zip
+  Type64:     sha256
+  Checksum64: E0A5E2938548B0774748F5BF58B4BA5219D66BFA142AFFD313965D21E8A1CE41
+
+Contents of file LICENSE.txt is obtained from https://raw.githubusercontent.com/uazo/cromite/master/LICENSE
