@@ -31,6 +31,8 @@ Remove-Item `
   -Recurse -Force `
   -ErrorAction Continue
 
+icacls $binaryLocation /grant "*S-1-15-2-2:(OI)(CI)(RX)" /Q
+
 Install-ChocolateyShortcut `
   -ShortcutFilePath $shortcutLocation `
   -TargetPath "$binaryLocation\chrome.exe" `
