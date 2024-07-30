@@ -5,7 +5,7 @@
     <id>cromite</id>
     <title>Cromite</title>
     <version>127.0.6533.73</version>
-    <authors>Carmelo Messina</authors>
+    <authors>uazo</authors>
     <owners>Alberto Ponces</owners>
     <summary>Cromite - a Bromite fork with ad blocking and privacy enhancements.</summary>
     <description><![CDATA[Cromite is a Chromium fork based on Bromite with built-in support for ad blocking and an eye for privacy.
