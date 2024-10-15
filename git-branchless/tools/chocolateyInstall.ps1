@@ -1,6 +1,6 @@
 $packageName    = 'git-branchless'
-$url            = 'https://github.com/arxanas/git-branchless/releases/download/v0.9.0/git-branchless-v0.9.0-x86_64-pc-windows-msvc.zip'
-$checksum       = '90B4514274D59A602483253F788EAA25096EBE9B416F78227FD3D46468E2CD2B'
+$url            = 'https://github.com/arxanas/git-branchless/releases/download/v0.10.0/git-branchless-v0.10.0-x86_64-pc-windows-msvc.zip'
+$checksum       = '60EBE87ED18DD1B2C93C5094C9E7C9960590A97E452FA3EC03720C9C71B29452'
 $checksumType   = 'sha256'
 $validExitCodes = @(0)
 
