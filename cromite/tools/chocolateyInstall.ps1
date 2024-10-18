@@ -1,6 +1,6 @@
 $packageName      = 'cromite'
-$url              = 'https://github.com/uazo/cromite/releases/download/v129.0.6668.101-5a4953031c9c9322dda2d3bba3ef23d33c753005/chrome-win.zip'
-$checksum         = 'AD0529B527A75E55B496DF0C89BD1D86131F220043C80892F73ACF23E7098586'
+$url              = 'https://github.com/uazo/cromite/releases/download/v130.0.6723.59-00f5239a3c15b6c898b246664f654c19f25b9122/chrome-win.zip'
+$checksum         = '072CD4B194069D371864D81DB97DF02F361508DA28520468B6FF1FD8B626B7EE'
 $launcherChecksum = 'C698E8BAED23EE1AD9366B475F52436BBBE95BAEB3CA022E198A33865835CC99'
 $checksumType     = 'sha256'
 $validExitCodes   = @(0)
