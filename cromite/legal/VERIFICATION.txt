@@ -15,7 +15,7 @@ using the links in the relevant assets section of the page.
 
 Alternatively the installers can be downloaded directly from
 
-  URL64: https://github.com/uazo/cromite/releases/download/v132.0.6834.83-36e27b9c60c551348fe4e65a537d16c76d9b48e8/chrome-win.zip
+  URL64: https://github.com/uazo/cromite/releases/download/v132.0.6834.122-a1d43287a551f36b23985a11c905e9d192242fbd/chrome-win.zip
 
 2. The installer can be validated by comparing checksums
   - Use powershell function 'Get-Filehash' - Get-Filehash -Algorithm sha256 chrome-win.zip
@@ -23,6 +23,6 @@ Alternatively the installers can be downloaded directly from
 
   File64:     chrome-win.zip
   Type64:     sha256
-  Checksum64: 8A141A5490CA64915C23DBFC53A94A32C3EB9FA361B45746C62A6D63D739A411
+  Checksum64: 315E7A3C803961E617C99888BB6FA5C56845E14DF82F59A5FC9450FFB6C0F510
 
 Contents of file LICENSE.txt is obtained from https://raw.githubusercontent.com/uazo/cromite/master/LICENSE
