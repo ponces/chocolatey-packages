@@ -4,7 +4,7 @@
   <metadata>
     <id>cromite</id>
     <title>Cromite</title>
-    <version>137.0.7151.104</version>
+    <version>138.0.7204.50</version>
     <authors>uazo</authors>
     <owners>Alberto Ponces</owners>
     <summary>Cromite - a Bromite fork with ad blocking and privacy enhancements.</summary>
@@ -22,7 +22,7 @@ Cromite is available for Android arm64-v8a, arm32-v7a and x86_64, Nougat and abo
     <licenseUrl>https://github.com/uazo/cromite/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://camo.githubusercontent.com/fc003f5ff33669908e7b929692fdbb8d10ec7df5ffa5e02e4d9becf405dd7804/68747470733a2f2f7777772e63726f6d6974652e6f72672f6170705f69636f6e2e706e67</iconUrl>
-    <releaseNotes>https://github.com/uazo/cromite/releases/tag/v137.0.7151.104-a427cbd404d3786353ab1cfc74aadcffaf22feeb</releaseNotes>
+    <releaseNotes>https://github.com/uazo/cromite/releases/tag/v138.0.7204.50-f44f153674d484bc6b33d005f4441407b0b588a7</releaseNotes>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
